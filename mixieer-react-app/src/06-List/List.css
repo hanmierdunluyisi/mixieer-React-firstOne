@@ -1,0 +1,19 @@
+.list-category{
+    font-size: 2.5em;
+    font-weight: bold;
+    color:hsl(208, 40%, 52%);
+    margin-bottom: 10ox;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: hsl(65, 77%, 41%);
+    box-shadow: 5px 5px 5px  ;
+}
+
+.list-items li{
+    font-size: 2.5em;
+    list-style: none;
+    color: hsl(108, 94%, 28%);
+    text-align: center;
+    margin: 0;
+}

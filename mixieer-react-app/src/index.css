@@ -1,0 +1,220 @@
+.card {
+  border: 1px solid #d32c2c; /* 设置卡片的边框为 1 像素宽的实线，颜色为深红色 */
+  border-radius: 10px; /* 设置卡片边框的圆角为 10 像素，使边框看起来更圆滑 */
+  box-shadow: 5px 5px 5px #672e2e; /* 为卡片添加阴影效果，水平和垂直偏移 5 像素，模糊半径 5 像素，颜色为深棕色 */
+  padding: 20px; /* 设置卡片内部的边距为 20 像素，即内容与边框之间的空间 */
+  margin: 10px; /* 设置卡片外部的边距为 10 像素，即卡片与其他元素之间的空间 */
+  text-align: center; /* 设置卡片内的文本水平居中对齐 */
+  max-width: 250px; /* 设置卡片的最大宽度为 250 像素，防止内容过宽 */
+  display: inline-block; /* 设置卡片为内联块元素，允许设置宽度和高度，同时按行显示 */
+}
+
+.card .card-image{
+  max-width: 60px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #4e4747;
+}
+
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color:rgba(0, 0, 0, 0.7);
+}
+
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px; 
+
+}
+
+.student p{
+  margin: 0;
+}
+
+.welcom-message{
+  font-size: 2.5em;
+  background-color: hsl(120,100%,42%);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: hsl(32, 88%, 62%);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color:hsl(208, 40%, 52%);
+  margin-bottom: 10ox;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(65, 77%, 41%);
+  box-shadow: 5px 5px 5px  ;
+}
+
+.list-items li{
+  font-size: 2.5em;
+  list-style: none;
+  color: hsl(108, 94%, 28%);
+  text-align: center;
+  margin: 0;
+}
+
+
+.list-items li:hover{
+
+  color: #d32c2c;
+  cursor: pointer;
+}
+
+
+.count-container{
+  text-align: center;
+  font-family: Arial,  sans-serif;
+}
+
+.count-display{
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.count-button{
+  width: 170px;
+  height: 50px;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0px 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px ;
+  background-color: hsl(180, 100%, 50%);
+  color: white;
+  cursor: pointer;
+}
+
+.count-button:hover{
+  background-color: #d32c2c;
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 25px;
+  border: 5px solid;
+  border-radius: 25px;
+  transition: 0.25 ease;
+  box-shadow: 5px 5px 5px hsl(208, 40%, 52%);
+}
+
+.color-display p{
+  color: hsl(120,100%,42%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+
+.to-do-list{
+  font-family: Arial,  sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size:4rem;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 10px;
+
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:background-color 0.5 ease;
+}
+
+.add-button {
+  background-color: hsl(136, 71%, 56%);
+} 
+.add-button:hover {
+  background-color: hsl(136, 71%, 38%);
+}
+
+.delete-button {
+  background-color: hsl(305, 73%, 42%);
+}
+.delete-button:hover {
+  background-color: hsl(305, 73%, 22%);
+}
+
+.move-button {
+  background-color: hsl(178, 82%, 48%);
+}
+.move-button:hover {
+  background-color: hsl(178, 82%, 28%);
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsl(65, 77%, 41%);
+  border-radius: 10px;
+  color: black;
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+  background-color: hsl(0, 0%,97%);
+  border: 3px solid hsl(0, 0%,85%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+  margin-top: 10px;
+}
+
+.delete-button,.move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-top: 10px;
+  margin-left: 10px;
+}
